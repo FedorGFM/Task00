@@ -13,4 +13,15 @@ int digit1 = number / 10;
 int digit2 = number % 10;
 int digit3 = digit1 % 10;
 
-Console.WriteLine($"Результат из {number} -> {digit3}");
+if (number >= 10 && number <= 99)
+{
+Console.WriteLine("Ошибка число не является трехзначным!");
+}
+else if (number >= 1000 && number <= 1000000000)
+{
+Console.WriteLine("Ошибка число не является трехзначным!");
+}
+else
+{
+Console.WriteLine($"Вторая цифра из {number} -> {digit3}");
+}
