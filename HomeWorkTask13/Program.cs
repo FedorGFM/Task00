@@ -17,6 +17,6 @@ else Console.Write(SecondNumber(number));
 
 int SecondNumber(int number)
 {
-    while (number >= 999) number /= 10;
+    while (number >= 1000) number /= 10;
     return number % 10;
 }
