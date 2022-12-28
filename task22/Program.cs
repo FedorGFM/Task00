@@ -4,16 +4,20 @@
 
 Console.Write("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+if (number > 0)
+{
+    TableSquare(number);
+}
 
-TableSquare(number);
+else System.Console.WriteLine("Не натуральное число");
 
 void TableSquare(int num)
 {
     int count = 1;
     while (count <= num)
     {
-        Console.WriteLine($"{count} -> " + Math.Pow(count, 2));
-        Console.WriteLine();
+        Console.WriteLine($"{count} -> " + Math.Pow(count, 2)); 
+        //Console.WriteLine($"{count}\t" + Math.Pow(count, 2)); можно так через табуляцию
         count ++;
     }
 }
