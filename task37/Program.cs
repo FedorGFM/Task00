@@ -7,9 +7,9 @@
 int[] array = CreateArrayRndInt(7, -10, 10);
 PrintArray(array);
 
-int[] newArray = MultiplyElemArray(array);
+int[] resArray = MultiplyElemArray(array);
 Console.WriteLine();
-PrintArray(newArray);
+PrintArray(resArray);
 
 int[] CreateArrayRndInt(int size, int min, int max)
 {
