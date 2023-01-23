@@ -6,7 +6,7 @@ int[] arrayOrigin = CreateArrayRndInt(10, -3, 5);
 PrintArray(arrayOrigin);
 
 int[] arrayCopy = CopyArray(arrayOrigin);
- arrayCopy[0] = 30;                             // Добавлено для различия массива
+arrayCopy[0] = 30;                             // Добавлено для различия массива
 PrintArray(arrayCopy);
 
 int[] CopyArray(int[] arr)
