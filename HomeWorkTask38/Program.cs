@@ -9,6 +9,8 @@ Console.WriteLine($"Max = {maxArr}");
 double minArr = MinArray(array);
 Console.WriteLine($"Min = {minArr}");
 Console.WriteLine($"Разницу между максимальным и минимальным элементом массива = {maxArr - minArr}");
+// double sum = SumArr(array);
+// Console.WriteLine($"Разницу между максимальным и минимальным элементом массива = {sum}");
 
 double[] CreateArrayRndDouble(int size, int min, int max)
 {
@@ -54,3 +56,14 @@ double MinArray(double[] arr)
     }
     return minArr;
 }
+
+// double SumArr(double[] arr)
+// {
+//     double sum = arr[0];
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//         sum = maxArr - minArr;
+//         arr[i] = Math.Round(sum, 1);
+//     }
+//     return sum;
+// }
