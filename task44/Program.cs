@@ -23,11 +23,11 @@ int[] GetFibonacciArray(int size)
 
 void PrintArray(int[] arr)
 {
-    Console.Write("[");
+    Console.Write("Число Фибоначчи: ");
     for (int i = 0; i < arr.Length; i++)
     {
-        if(i < arr.Length - 1) Console.Write(arr[i] + ", ");
+        if(i < arr.Length - 1) Console.Write(arr[i] + " ");
         else Console.Write(arr[i]);
     }
-    Console.WriteLine("]");
+    Console.WriteLine();
 }
