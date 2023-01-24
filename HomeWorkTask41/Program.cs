@@ -16,7 +16,7 @@ int[] arrNumbers = new int[m];
 SizeNumbers(m);
 
 int res = PositiveNumbers(arrNumbers);
-Console.WriteLine($"Пользователь ввел {res} чисела, которые больше 0.");
+Console.WriteLine($"Пользователь ввел {res} числа, которые больше 0.");
 
 void SizeNumbers(int m)
 {
@@ -50,7 +50,7 @@ int PositiveNumbers(int[] arrNumbers)
 // int[] userArray = CreateArray(m);
 // PrintArray(userArray);
 // int positiveNumbers = PositiveNumbers(userArray);
-// Console.Write($" -> Пользователь ввел {positiveNumbers} чисела, которые больше 0.");
+// Console.Write($" -> Пользователь ввел {positiveNumbers} числа, которые больше 0.");
 
 
 // int[] CreateArray(int count)
@@ -66,7 +66,7 @@ int PositiveNumbers(int[] arrNumbers)
 
 // void PrintArray(int[] arr)
 // {
-//     Console.Write("В мфссиве [");
+//     Console.Write("В массиве [");
 //     for (int i = 0; i < arr.Length; i++)
 //     {
 //         if(i < arr.Length - 1) Console.Write(arr[i] + ", ");
