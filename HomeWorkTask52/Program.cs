@@ -30,8 +30,8 @@ void PrintMatrix(int[,] matrix)
         Console.Write("[");
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j], 2},");
-            else Console.Write($"{matrix[i, j], 2}");
+            if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j], 3},");
+            else Console.Write($"{matrix[i, j], 3}");
         }
         Console.WriteLine("]");
     }
@@ -67,12 +67,12 @@ void PrintArray(double[] arr)
 // int rows = rnd.Next(1, 10);
 // int columns = rnd.Next(1, 10);
 
-int[,] array2D = CreateMatrixRndInt(3, 4, 0, 9);    // 3 - rows; 4 - columns
+int[,] array2D = CreateMatrixRndInt(3, 4, 0, 10);    // 3 - rows; 4 -columns
 PrintMatrix(array2D);
 
-Console.WriteLine();
+Console.Write("");
 Console.Write("Среднее арифметическое каждого столбца: ");
 GetArrayArithmetic(array2D);
-Console.Write(" ");
+Console.Write("");
 double[] array = GetArrayArithmetic(array2D);
 PrintArray(array);
